@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgba(123, 47, 153);
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/100/943/desktop-wallpaper-solid-color-solid-background-colors.jpg);
+}
+
+header h1 {
+    margin-bottom: 15px;
+    font-size: 50px;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 120px;
+    display: grid;
+}
+
+button {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #119759;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 8px 0;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.inputs {
+    display: flex;
+    color: #fff;
+    display: grid;
+} 
+
+.form-campo input {
+    width: 100%;
+    display: block;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+form {
+    max-width: 360px;
+}
+
+form button {
+    max-width: 120px;
+}
